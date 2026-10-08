@@ -114,11 +114,7 @@ del valor final.
 Para un escalón de 5 V:
 
 $$
-V_{out}(5\tau)
-=
-5(1-e^{-5})
-\approx
-4.97V
+V_{out}(5\tau) = 5(1-e^{-5}) \approx 4.97V 
 $$
 
 Por lo tanto, el proceso de adquisición debe mantenerse durante un tiempo suficiente para observar aproximadamente **5τ**.
