@@ -275,7 +275,7 @@ El procedimiento de control es:
 La ecuación implementada será:
 
 $$
-u(t)=\operatorname{sat}\left(K_p e(t)\right)
+u(t)=\min\left(5,\max\left(0,K_p e(t)\right)\right)
 $$
 
 Para una salida limitada entre 0 y 5 V:
